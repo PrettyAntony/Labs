@@ -1,0 +1,14 @@
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\bin\Debug\net7.0\Lab2.exe
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\bin\Debug\net7.0\Lab2.deps.json
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\bin\Debug\net7.0\Lab2.runtimeconfig.json
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\bin\Debug\net7.0\Lab2.dll
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\bin\Debug\net7.0\Lab2.pdb
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.AssemblyInfo.cs
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.dll
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\refint\Lab2.dll
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.pdb
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\Lab2.genruntimeconfig.cache
+C:\Users\preci\ConestogaCollege\PROG8146\Week 2\Assignment 2\Lab2\obj\Debug\net7.0\ref\Lab2.dll

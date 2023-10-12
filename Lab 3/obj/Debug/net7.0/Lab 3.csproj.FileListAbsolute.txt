@@ -1,0 +1,14 @@
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\bin\Debug\net7.0\Lab 3.exe
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\bin\Debug\net7.0\Lab 3.deps.json
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\bin\Debug\net7.0\Lab 3.runtimeconfig.json
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\bin\Debug\net7.0\Lab 3.dll
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\bin\Debug\net7.0\Lab 3.pdb
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.AssemblyInfoInputs.cache
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.AssemblyInfo.cs
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.csproj.CoreCompileInputs.cache
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.dll
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\refint\Lab 3.dll
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.pdb
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\Lab 3.genruntimeconfig.cache
+C:\Users\preci\OneDrive\Desktop\ConestogaCollege\PROG8146\Labs\Lab 3\obj\Debug\net7.0\ref\Lab 3.dll
