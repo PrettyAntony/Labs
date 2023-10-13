@@ -16,8 +16,6 @@ class Program
             Passenger defaultPassenger = new Passenger("Pretty", "Antony", "(123) 456-7890", 4, 100.50);
             passengersList.Add(defaultPassenger);
 
-            int index = 0;
-
             do
             {
                 Console.WriteLine("\n\nWelcome to KITE AIRLINES!!!!");
@@ -67,12 +65,39 @@ class Program
 
                     //getting input for number of bags
                     Console.WriteLine("How many bags you are checking in?");
-                    passenger.numberOfBags = int.Parse(Console.ReadLine()!);
-                    
-                    //getting input for total weight of bags
-                    Console.WriteLine("Enter the total weight of your luggage(in kgs): ");
-                    var totalWeightOfBags = int.Parse(Console.ReadLine()!);
-                    passenger.getAverageWeightOfBags(totalWeightOfBags);
+                    var _numberOfBags = Console.ReadLine()!;
+
+                    //checking if the input is empty, giving zero as default value.
+                    if (_numberOfBags.Equals(""))
+                    {
+                        passenger.numberOfBags = 0;
+                        Console.WriteLine("You have entered no bags.");
+                    }
+                    else
+                    {
+                        passenger.numberOfBags = int.Parse(_numberOfBags);
+                    }
+
+                    //if the passenger have zero bags, so skipping the part of getting weight from the user.
+                    if (passenger.numberOfBags != 0)
+                    {
+
+                        //getting input for total weight of bags
+                        Console.WriteLine("Enter the total weight of your luggage(in kgs): ");
+                        var totalWeightOfBags = Console.ReadLine()!;
+
+                        //checking if the input is empty, giving zero as default value.
+                        if (totalWeightOfBags.Equals(""))
+                        {
+                            passenger.averageWeightOfBags = 0.00;
+                        }
+                        else
+                        {
+                            passenger.getAverageWeightOfBags(int.Parse(totalWeightOfBags));
+                        }
+                    }else{ //for adding the default value for average weight
+                        passenger.averageWeightOfBags = 0.00;
+                    }
 
                     //adding the new passenger to the list.
                     passengersList.Add(passenger);
@@ -82,7 +107,7 @@ class Program
                 //menu #2 is for showing the list of passengers added.
                 else if (menuItem == 2)
                 {
-                    
+
                     //listing all added passengers.
                     Console.WriteLine("==========Passenger's List========\n");
                     foreach (Passenger passenger in passengersList)
@@ -90,7 +115,6 @@ class Program
                         Console.WriteLine($"Name: {passenger.firstName} {passenger.lastName}, Phone: {passenger.phoneNumber}, {passenger.numberOfBags} Bags, Average weight: {passenger.averageWeightOfBags}kgs");
                     }
                     Console.WriteLine("\n");
-
 
                 }
                 //menu #3 is for exiting the loop.
@@ -100,9 +124,7 @@ class Program
                     Console.Write("Thankyou & Have a nice day :)");
                     return;
                 }
-
-                index++;
-            } while (index < 100);
+            } while (true);
         }
         catch (Exception e)
         {
