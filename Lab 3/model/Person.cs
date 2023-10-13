@@ -18,6 +18,14 @@ public class Person
 
     public string? phoneNumber { get; set; }
 
+    //for validating firstname and lastname
+    public bool validateName(string? _name)
+    {
+        return (_name!.Equals(""));
+    }
+
+    //for validating phonenumber
+    //here the exact format is checking (XXX) XXX-XXXX
     public bool validatePhoneNumber()
     {
         try

@@ -1,4 +1,4 @@
-public class Passenger : Person
+public class Passenger : Person  //'Passenger' class inherits all member variables and functions from 'Person' class
 {
     public Passenger()
     {
@@ -18,6 +18,7 @@ public class Passenger : Person
 
     public double? averageWeightOfBags { get; set; }
 
+    //for getting the average weights
     public double? getAverageWeightOfBags(double totalWeightOfBags)
     {
         this.averageWeightOfBags =  totalWeightOfBags / numberOfBags;
